@@ -16,7 +16,6 @@ data = [
 table = tabulate(data, headers=["IMC", "ESTADO"], tablefmt="grid")
 
 
-
 while True:    
     print(table)
     masa_corporal = input("\nIngrese La Masa Corporal Kg: ")
@@ -46,16 +45,13 @@ while True:
              
             input("\nPresiona Enter !")
             system("clear")
-           
-       
+                  
         else:
             print("\nError al ingresar la ESTATURA\n")
             time.sleep(1)
             system("clear")
 
-        
-          
-        
+	
     else:
         print("\nError al ingresar la MASA\n")
         time.sleep(1)
